@@ -1,0 +1,220 @@
+{
+  "title": "Prenotazione delle sale riunioni",
+  "description": "Prototipo navigabile per consultare la disponibilità settimanale delle sale, filtrare le prenotazioni e registrare nuovi incontri con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica settimanale",
+      "description": "Riepilogo delle prenotazioni e degli spazi disponibili nella settimana selezionata.",
+      "metrics": [
+        {
+          "label": "Prenotazioni",
+          "value": "18"
+        },
+        {
+          "label": "Sale disponibili oggi",
+          "value": "3"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "42"
+        },
+        {
+          "label": "Richieste da confermare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Organizzatore",
+        "Ufficio",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Lunedì 12 maggio",
+          "09:00–10:00",
+          "Vela",
+          "Ufficio delle Mappe",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Lunedì 12 maggio",
+          "10:30–12:00",
+          "Rivo",
+          "Sportello delle Idee",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Sorgente",
+          "Martedì 13 maggio",
+          "14:00–15:00",
+          "Talia",
+          "Ufficio dei Percorsi",
+          "4",
+          "Da confermare"
+        ],
+        [
+          "Lumo",
+          "Mercoledì 14 maggio",
+          "11:00–12:00",
+          "Orma",
+          "Archivio delle Storie",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Venerdì 16 maggio",
+          "09:30–11:00",
+          "Piuma",
+          "Ufficio delle Mappe",
+          "5",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Vista per giorno delle prenotazioni delle sale; usa i filtri per restringere la ricerca per sala, data o stato.",
+      "metrics": [],
+      "columns": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Organizzatore",
+        "Ufficio",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Lunedì 12 maggio",
+          "09:00–10:00",
+          "Vela",
+          "Ufficio delle Mappe",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Lunedì 12 maggio",
+          "10:30–12:00",
+          "Rivo",
+          "Sportello delle Idee",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Sorgente",
+          "Lunedì 12 maggio",
+          "13:00–14:00",
+          "Talia",
+          "Ufficio dei Percorsi",
+          "4",
+          "Annullata"
+        ],
+        [
+          "Lumo",
+          "Martedì 13 maggio",
+          "09:00–10:30",
+          "Orma",
+          "Archivio delle Storie",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Sorgente",
+          "Martedì 13 maggio",
+          "14:00–15:00",
+          "Talia",
+          "Ufficio dei Percorsi",
+          "4",
+          "Da confermare"
+        ],
+        [
+          "Nubi",
+          "Mercoledì 14 maggio",
+          "09:30–10:30",
+          "Piuma",
+          "Ufficio delle Mappe",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Lumo",
+          "Mercoledì 14 maggio",
+          "11:00–12:00",
+          "Orma",
+          "Archivio delle Storie",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Nubi",
+          "Giovedì 15 maggio",
+          "10:00–11:30",
+          "Vela",
+          "Sportello delle Idee",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Sorgente",
+          "Giovedì 15 maggio",
+          "14:00–15:00",
+          "Rivo",
+          "Ufficio dei Percorsi",
+          "3",
+          "Da confermare"
+        ],
+        [
+          "Nubi",
+          "Venerdì 16 maggio",
+          "09:30–11:00",
+          "Piuma",
+          "Ufficio delle Mappe",
+          "5",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-prenotazione",
+      "title": "Nuova prenotazione",
+      "description": "Registra una richiesta di utilizzo di una sala per una riunione.",
+      "metrics": [],
+      "columns": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Organizzatore",
+        "Ufficio",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Sala",
+        "Data",
+        "Orario",
+        "Organizzatore",
+        "Ufficio",
+        "Partecipanti",
+        "Stato"
+      ]
+    }
+  ]
+}
